@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 class="h1">Todo</h1>
+              <a  class="btnImg">  <img src="./Vector.jpg" alt="plus" class="imgRight"></a>
+            
+        </div>
+
+        <div class="bothDiv">
+
+            <div class="left">
+    
+                <!-- <h1>Todo</h1> -->
+                <!-- <div></div> -->
+                <ul class="ul">
+                    <li class="li1">Work</li>
+                    <li class="li2">study</li>
+                    <li class="li3">entertainment</li>
+                    <li class="li4">family</li>
+                   
+                </ul>
+                <div style="padding-left: 40px;">
+                    <input type="checkbox" class="chckboxDelete" >
+                    <span style="color:#808080 ; font-size: 20px;">Hide done task</span>
+                </div>
+            </div> 
+            <div id="myModal" class="modal">
+                <!-- Modal start -->
+                <div class="modal-content">
+                    <div class="taskDiv">
+                        <span class="close">&times;</span>
+                        <span class="task">TASK</span>
+                    </div>
+                 <div class="titlee">
+                    <span class="spantitle">Title</span>
+                    <div>
+
+                        <input type="text" placeholder="Placeholder text..." class="inpTitle1" id="inputModal">
+                    </div>
+                 </div>
+
+                 <div class="textarea">
+                    <span class="descr">Description</span>
+                    <div style="padding-top: 15px;">
+                       <input placeholder="Placeholder text..." class="inpDesc2"></input>
+                    </div>
+                     <button class="save">Save</button>
+                     <button class="closee">Close</button>
+                 </div>
+                </div>
+            </div>
+                <!-- Modal end -->
+              <!-- Modal 2 start-->
+              <div id="myModal2" class="modal">
+              <div class="modal-content">
+                <div class="taskDiv">
+                    <span class="close">&times;</span>
+                    <span class="task">TASK</span>
+                </div>
+             <div class="titlee">
+                <span class="spantitle">Title</span>
+                <div>
+
+                    <input type="text" placeholder="Placeholder text..." class="inpTitle2" id="inputModal">
+                </div>
+             </div>
+
+             <div class="textarea">
+                <span class="descr">Description</span>
+                <div style="padding-top: 15px;">
+                   <input placeholder="Placeholder text..." class="inpDesc22"></input>
+                   
+                </div>
+                 <button class="save2">Save</button>
+                 <button class="closee">Close</button>
+             </div>
+            </div>
+        </div>
+              <!-- Modal2 end -->
+             
+            <div class="right">
+               <!-- <div class="card">
+                <h3>The first task tittle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.
+                </p>
+               </div> -->
+           
+            </div>
+        </div>
+        </div>
+       
+    
+    <script src="./main.js"></script>
+
+   
+</body>
+</html>
